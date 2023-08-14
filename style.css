@@ -17,7 +17,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 70px;
   padding: 0 100px;
 }
@@ -136,6 +136,7 @@ button:hover {
 #product1 {
   text-align: center;
   margin-top: 20px;
+  margin: 20px;
 }
 #product1 h2 {
   font-size: 35px;
@@ -268,4 +269,79 @@ button:hover {
 }
 .box:hover .content .image img {
   border-color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 5px;
+}
+
+.grid .blog {
+  /* background-color: #001d3d; */
+  /* border: 1px solid black; */
+  height: 500px;
+  margin: 10px;
+}
+.grid .blog .blog_container {
+  height: 150px;
+  width: auto;
+  background-color: #fff;
+  color: #000814;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.grid .blog .blog_container h2 {
+  color: #ff9100;
+  font-size: 20px;
+}
+.grid .blog .blog_container p {
+  text-align: justify;
+}
+.grid .blog .blog_container h4 {
+  color: #000000;
+}
+.grid .blog .blog_container h5 {
+  margin-top: 5px;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background-color: #000814;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.grid .download {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 500px;
+  margin: 10px;
+}
+.grid .dl {
+  margin-top: 5px;
+  text-align: center;
+}
+.grid .download .song1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+  margin-top: 13px;
+}
+
+.grid .download .song1 span {
+  background-color: #fb8500;
+  color: #e2e2e2;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 200;
+  cursor: pointer;
 }
