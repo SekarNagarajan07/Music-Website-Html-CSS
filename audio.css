@@ -13,3 +13,24 @@
   font-size: 20px;
   color: #f48c06;
 }
+
+.audio {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.audio th {
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  color: #f48c06;
+  background-color: #000814;
+}
+.audio td {
+  padding: 10px;
+  margin: 10px;
+}
+.audio tr td {
+  text-align: center;
+}
