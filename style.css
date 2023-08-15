@@ -430,9 +430,19 @@ footer {
   background: #fb8500;
 }
 .center .content .text {
-  font-size: 1.0625rem;
+  font-size: 15px;
   font-weight: 500;
-  padding-left: 10px;
+  padding-left: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.center .content .text:hover {
+  line-height: 5px;
+  margin: 2px;
+  padding: 5px;
+  background-color: #000814;
+  border-radius: 5px;
 }
 .center .content .phone {
   margin: 15px 0;
